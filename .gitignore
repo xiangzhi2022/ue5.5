@@ -1,20 +1,34 @@
-# OS / editor noise
+## Unreal Engine
+# Project build products and caches
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# Plugins build products
+/Plugins/*/Binaries/
+/Plugins/*/Intermediate/
+/Plugins/*/Saved/
+
+# IDE/user-specific
+.vs/
+.idea/
+*.VC.db
+*.VC.opendb
+*.sdf
+*.suo
+*.opensdf
+*.user
+
+# Platform-specific clutter
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Local tooling
-/.taskmaster/
-
-# Logs & temp
+# Logs and temps
 *.log
 *.tmp
 *.temp
 
-# Build caches (generic)
-dist/
-build/
-out/
-bin/
-obj/
-
+# Local tooling
+/.taskmaster/
