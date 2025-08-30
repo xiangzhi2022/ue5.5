@@ -1,0 +1,20 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local tooling
+/.taskmaster/
+
+# Logs & temp
+*.log
+*.tmp
+*.temp
+
+# Build caches (generic)
+dist/
+build/
+out/
+bin/
+obj/
+
